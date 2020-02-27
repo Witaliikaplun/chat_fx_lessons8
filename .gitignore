@@ -1,0 +1,7 @@
+.idea
+*.xml
+*.class
+
+
+# Project exclude paths
+/out/
