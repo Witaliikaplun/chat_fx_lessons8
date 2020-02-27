@@ -58,7 +58,7 @@ public class ClientHandler {
                                     sendMsg("/authok " + newNick);
                                     nick = newNick;
                                     server.subscribe(this);
-                                    System.out.println("Клиент " + nick + " подключился");
+                                    System.out.println("Клиент " + nick + " подключился!");
                                     socket.setSoTimeout(0);
                                     break;
                                 } else {
